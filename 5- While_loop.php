@@ -14,12 +14,15 @@
 
     $x = 10;
 
-    while ($x > 0) {
-
-        echo "Value of <strong>X</strong> is  <mark>" . $x . "</mark> <br><br>";
-        echo "increment : Start <br><br>";
-        $x--;
-        echo "increment : Done <br><br>";
+    while ($x <= 101) {
+        if ($x != 10) {
+            echo "Value of <strong>X</strong> is  <mark>" . $x . "</mark> <br><br>";
+        } else {
+            echo "Value of X is intinal value  " . $x . "<br><br>";
+        }
+        echo "Dcrement : Start <br><br>";
+        $x += 10;
+        echo "Dcrement : Done <br><br>";
         echo "<hr>";
     }
 
