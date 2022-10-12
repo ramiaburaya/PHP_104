@@ -12,13 +12,15 @@
 
     echo "<h1>PHP do while Loop</h1>";
 
-    $x = 1;
+    $x = 5;
 
     do {
         echo "Value of x is " . $x . "<br><br>";
         $x++;
-    } while ($x < 5);
+    } while ($x <= 10);
 
+    echo "<hr>";
+    echo "The last value of X " . $x;
 
     ?>
 </body>
